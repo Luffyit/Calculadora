@@ -23,16 +23,21 @@ body{
     backdrop-filter: blur(10em);
     border: 1px solid #fff;
     border-radius: 0.5em ;
-    gap: 1.5em;
+    gap: 0.6em;
 }
 .visor{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
+    justify-content: flex-end;
+    width: 93%;
     height: 6em;
     background-color: #fff;
     border-radius: 0.5em;   
+    box-sizing: border-box;
+    overflow: hidden;
+}
+p{
+    font-size: 3rem;
 }
 .row{
     display: flex;
@@ -46,6 +51,18 @@ button{
     cursor: pointer;
     font-size: 2rem;
     transition: 0.3s;
+}
+.btn-double{
+    width: 6.5em;
+}
+.c{
+    background-color: firebrick;
+    opacity: 0.8;
+    color: #fff;
+}
+.c:hover{
+    background-color: firebrick;
+    opacity: 1;
 }
 button:hover{
     background-color: #ccc;
