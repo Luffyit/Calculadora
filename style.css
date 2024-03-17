@@ -11,7 +11,7 @@ body{
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-image: linear-gradient(to bottom, rgb(150, 0, 0) ,rgb(100, 0, 0), black);
 }
 .conteiner{
     display: flex;
@@ -42,9 +42,10 @@ p{
 .row{
     display: flex;
     gap: 1em;
+    width: 90%;
 }
 button{
-    width: 3em;
+    width: 30%;
     height: 3em;
     border: 1px solid #000;
     border-radius:0.5rem;
@@ -53,7 +54,7 @@ button{
     transition: 0.3s;
 }
 .btn-double{
-    width: 6.5em;
+    width: 65%;
 }
 .c{
     background-color: firebrick;

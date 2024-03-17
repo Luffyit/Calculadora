@@ -7,9 +7,11 @@ function clicked(param){
 }
 function limpa(){
     visor.innerHTML = ''
-    console.log('aqui')
+}
+function apaga(){
+    let len = visor.innerHTML.length
+    visor.innerHTML = visor.innerHTML.slice(0,len-1)
 }
 function resultado(){
-    conta = Number(visor.innerHTML)
-    console.log(typeof conta)
+    visor.innerHTML = eval(visor.innerHTML)
 }
